@@ -1,0 +1,40 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <remittance>
+            <inputRemittance>
+                <userName>devlunari</userName>
+                <signature>ABCD</signature>
+                <productCode>007004</productCode>
+                <merchantCode>FNN778</merchantCode>
+                <terminal>TMONEY10</terminal>
+                <merchantNumber>+6281000111001</merchantNumber>
+                <destBankAcc>1231234567</destBankAcc>
+                <destAmount>100001</destAmount>
+                <transactionType>41</transactionType>
+                <senderAddress>Bogor</senderAddress>
+                <senderCountry>Indonesia</senderCountry>
+                <recipientName>Endy</recipientName>
+                <recipientPhone>+62812345678890</recipientPhone>
+                <recipientAddress>Pangkalan Jati</recipientAddress>
+                <recipientCity>Jakarta</recipientCity>
+                <recipientCountry>Indonesia</recipientCountry>
+                <description>Keterangan</description>
+                <traxId>124</traxId>
+                <feeAmount>1000</feeAmount>
+                <refCode>123</refCode>
+                <payCode>123</payCode>
+                <senderCountryId>id</senderCountryId>
+                <senderBornDate>1945-08-17</senderBornDate>
+                <senderBornPlace>Jakarta</senderBornPlace>
+                <recepientIdentificationId>123</recepientIdentificationId>
+                <recepientProvinceId>DKI</recepientProvinceId>
+                <recepientProvince>DKI Jakarta</recepientProvince>
+                <recepientSubProvinceId>jaktim</recepientSubProvinceId>
+                <recepientSubProvince>Jakarta Timur</recepientSubProvince>
+                <recepientId>123</recepientId>
+                <timeStamp>123</timeStamp>
+            </inputRemittance>
+        </remittance>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
